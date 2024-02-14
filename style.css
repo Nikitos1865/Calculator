@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     padding: 0;
@@ -30,6 +31,7 @@
 }
 
 #main-div {
+
     background-color: lightgrey;
     border: #242424 2px solid; 
     height: 570px;  
@@ -56,10 +58,9 @@
 
 #first-line {
     display: flex;
-    width: 100%;
+    width: 99%;
     height: 18%; 
     flex-wrap: nowrap;
-    margin-bottom: 10px;
 }
 
 body {
@@ -72,6 +73,16 @@ body {
     width: 100%; 
     background-color: white;
     border-radius: 10px;
+    display: flex; 
+    align-items: flex-end;
+}
+
+#output {
+    font-size: 51pt;
+    font-family: 'Georama';
+    margin-left: auto; 
+    margin-right: 5px; 
+
 }
 
 footer {
@@ -80,18 +91,48 @@ footer {
     bottom: 0; 
     margin-left: auto;
     margin-right: auto; 
+    margin-top: 3px; 
 }
 
 button {
     border-radius: 13px;
     height: 80px; 
     width: 80px; 
+    margin-top: 2px;
+    margin-bottom: 5px; 
+    font-family: "Georama";
+    
+}
+
+.num-buttons:hover {
+    background-color: darkgrey;
 }
 
 .op-buttons {
     background-color: orange;
 }
 
+.op-buttons:hover {
+    background-color: darkorange;
+}
+
+.wide {
+    width: 169px; 
+    font-size: larger;
+}
+
+.wide:hover {
+    background-color: darkgrey;
+}
+
+#equals:hover {
+    background-color: darkgray;
+}
+
 #clear {
     background-color: white;
+}
+
+#clear:hover {
+    background-color: gray;
 }
